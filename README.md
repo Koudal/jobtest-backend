@@ -56,19 +56,24 @@ kode: Test123
 ``` Relation morph ```
 
 *Indsæt svar 1*
+Ved at bruge Relation morph, vil man gøre det muligt for et enkelt model og at havde flere forskellige typer modeller for referencer.
+Altså det vil være muligt at havde en dynamiske type i databasen.
 
 ``` Spørgsmål 2 ```
 
 ``` Du har en database med mange relationer hvor company er den model hvor alle relationer til et given virksomhed har relationer til. Hvordan sikre du dig, at data slettes i relationsmodellerne, når du sletter en givent virksomhed? ```
 
 *Indsæt Svar 2*
-
+Der er flere muligheder for at sikker sig at det sker. 
+En mulighed kunne være "onDelete('cascade')"
 
 ``` Spørgsmål 3```
 
 ``` Når du skal lave funktionskode, f.eks. du behandler model data inden du skal sende det til et view, hvor placere du funktionskoden? ```
 
 *Indsæt Svar 3*
+Der er flere steder man kan placere den funktionskode, dette kunne man blandt andet gøre i en viewmodel.
+
 
 
 ``` Spørgsmål 4 ```
@@ -76,7 +81,7 @@ kode: Test123
 ``` Du sidder og skal arbejde for en kunde, hvis applikation køre uden PHP framework. Du skal lave et input felt og gemme det i databasen. Hvilke overvejelser gør du?  ```
 
 *Indsæt Svar 4*
-
+Når man arbejder uden et framework skal man være opmærksom på sikkerhed. Da mange framework ofte har en masse indbygget sikkerhedstjeks, som man derfor selv skal udfører.
 
 ## Efter testen
 Vi reviewer din løsning i ugen efter d. 22/6-25, hvorefter du vil få feedback på testudførslen. 
